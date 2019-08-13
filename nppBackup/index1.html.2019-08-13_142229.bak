@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TOTAL SPORTS LEAGUE</title>
+  
+  <!-- BOOTSTRAP FILES --> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+  <!-- CSS FILES -->  
+  <script src="js/script1.js"></script> 
+  <link rel="stylesheet" href="css/style1.css">
+ 
+  <!-- style for gallary -->
+	<style>
+		.gallarySize {
+		  height:520px;
+		  overflow-y: scroll;
+		  margin-bottom:4%;
+		  padding:2%;
+		}
+
+	</style>
+
+  <!-- Contact us --->
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  font-size:80%;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+</head>
+<body>
+
+<div class="top-container bg-dark" style="font-size:80%;color:white">
+  <div class="row">
+    <div class="col-md-3"><strong style="color:red">Timmings :</strong> 9:00A.M - 10:00P.M</div>
+	<div class="col-md-3"><strong style="color:red">Main office : </strong>Affection Green Farms, Pusta Road, Sector-135, Noida</div>
+	<div class="col-md-3"><strong style="color:red">Mobile No. :</strong> xxxxx-xxxxx</div>
+	<div class="col-md-3"><strong style="color:red">Email:</strong> tlsxyz@gmail.com</div>
+  </div>
+ </div>
+
+<div class="header" id="myHeader" style="z-index:99;background: linear-gradient(to bottom right, #ff9900 0%, #660033 100%);" >
+   
+ <nav class="navbar navbar-expand-lg navbar-light bg-light " style="border-radius: 15px 50px 30px 5px;">
+ 
+  <a class="navbar-brand" href="#">
+   <img src="images/logo.jpg" class="rounded float-left" alt="logo" width="50%" height="50%">
+  </a>
+  
+  <!--<h4 class="center" style="color:black">TOTAL SPORTS LEAGUE</h4>-->
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+ 
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+     
+    </ul>
+	
+    <div class="form-inline my-2 my-lg-0 headerMenu">
+	
+     <ul class="navbar-nav mr-auto">
+    
+		 <li class="nav-item active">
+			<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+		 </li>
+		 
+		 <li class="nav-item active">
+			<a class="nav-link" href="#about">About</a>
+		 </li>
+
+    	<li class="nav-item active">
+			 <a class="nav-link" href="#services">Services</a>
+		</li>
+
+        <li class="nav-item active">
+			 <a class="nav-link" href="#gallary">Gallary</a>
+		</li>
+ 		 
+    	 <li class="nav-item dropdown active">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Prices
+			</a>
+			 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Outdoor sports</a>
+              <a class="dropdown-item" href="#">Indoor sports</a>
+		     </div>
+		  </li>	
+		
+		  <li class="nav-item active">
+			<a class="nav-link" href="#" data-toggle="modal" data-target="#price">Events</a>
+		  </li>
+		  
+		  <li class="nav-item active">
+			<a class="nav-link" href="#contact">Contact us</a>
+		  </li>
+		 
+	 </ul>
+	
+    </div>
+  </div>
+ 
+ </nav> 
+  
+</div>
+
+<div class="content" style="z-index:-1">
+
+ <!-- Carousel-->
+
+<header class="container-fluid" style="background:; margin-bottom:4%;height:60%;color:black" >
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" >
+	  		  <img src='images/ip1.jpg'alt="tls">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">First Slide</h2>
+          <p class="lead">This is a description for the first slide.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('images/ip2.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Second Slide</h2>
+          <p class="lead">This is a description for the second slide.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('images/ip1.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Third Slide</h2>
+          <p class="lead">This is a description for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+ <div id="about" class="container-fluid shadow-lg  rounded" style="width:100%;height:100%;background:#ff9900;padding:3%;">
+
+  <div class="row"  >
+
+    <div class="col-md-6" style="margin-bottom:1%">
+	 
+	 <div class="row" style="margin-top:2%;margin-bottom:5%">
+       <div class="col">
+        <h3 >ABOUT TSL</h3>
+       </div>	
+     </div> 
+ 
+	 <img src="https://www.w3schools.com/bootstrap/paris.jpg" class="rounded center shadow-lg" alt="Cinque Terre" width="100%" >
+    </div>
+	
+	 <div class="col-md-6 shadow-lg"  style="height:40%;border-radius: 15px 50px;background:white;padding:5%;overflow:hidden;margin-top:12%;border: 1px #660033 solid">
+	    
+		<h4>WHO WE ARE ?</h4>
+	    
+		<div class="center">
+			<i>
+			Total Sports League (TSL) is going to be a one stop shop in coaching Multiple Sports Academy
+			TSL Sports academy provides multi sports coaching for children aged 4 – 16 years old during weekdays.
+			During weekends the academy turns into a battle of tournament for different sport according to the calendar
+			Our team of Academy Coaches are all federation licensed coaches, have been coaching at various level and have also competed nationally and internationally.
+		   </i>
+		</div>
+			     
+    </div>
+	
+  </div>	
+ </div>
+<!-- About close -->
+
+ <div id="gallary" class="container-fluid bg-light shadow-lg  rounded" style="width:100%;height:80%;">
+
+  <div class="row" style="margin-top:2%;" align="center">
+    <div class="col-md-12" >
+	 
+	 <div class="row" style="margin:4%;">
+       <div class="col">
+        <h3 >GAMES INCLUDED</h3>
+       </div>	
+     </div> 
+	 
+	 <div class="row" style="margin-top:2%;margin-bottom:4%" align="center" >
+       <div class="col">
+	   
+	   <div class="table-wrapper-scroll-y my-custom-scrollbar">
+
+  <table class="table table-bordered table-striped ">
+
+    <tbody align="center">
+ 
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/yoga.svg" alt="yoga">
+		 <h5>YOGA</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/zomba.svg" alt="zumba">
+		  <h5>ZUMBA</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/cricket.svg" alt="cricket">
+		  <h5>CRICKET</h5>
+		</td>
+		
+      </tr>
+
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/chess.svg" alt="chess">
+		 <h5>CHESS</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/dart.svg" alt="dart">
+		  <h5>DART</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/futsal.svg" alt="cricket">
+		  <h5>FUTSAL</h5>
+		</td>
+		
+      </tr>
+	  
+
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/boxcricket.svg" alt="box cricket">
+		 <h5>BOX CRICKET</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/bocce.svg" alt="bocce">
+		  <h5>BOCCE</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/boxing.svg" alt="boxing">
+		  <h5>BOXING</h5>
+		</td>
+		
+      </tr>
+	  
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/judo.svg" alt="judo">
+		 <h5>JUDO</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/karate.svg" alt="karate">
+		  <h5>KARATE</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/kickboxing.svg" alt="kick boxing">
+		  <h5>KICK BOXING</h5>
+		</td>
+		
+      </tr>
+	  
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/lawntennis.svg" alt="lawn tennis">
+		 <h5>LAWN TENNIS</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/minigolf.svg" alt="mini golf">
+		  <h5>MINI GOLF</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/powerlifting.svg" alt="power lifting">
+		  <h5>POWER LIFTING</h5>
+		</td>
+		
+      </tr>
+	  
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/shooting.svg" alt="shooting">
+		 <h5>SHOOTING</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/taekwondo.svg" alt="taekwondo">
+		  <h5>TAEKWONDO</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/volleyball.svg" alt="arm wrestling">
+		  <h5>ARM WRRSTLING</h5>
+		</td>
+		
+      </tr>
+	  
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/ropeskipping.svg" alt="rope skipping">
+		 <h5>ROPE SKIPPING</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/touchrugby.svg" alt="touch rugby">
+		  <h5>TOUCH RUGBY</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/wushu.svg" alt="wushu">
+		  <h5>WUSHU</h5>
+		</td>
+		
+      </tr>
+	  
+      <tr >
+        <td>
+		 <img  class="sportIcon"  src="images/icons/sepaktakraw.svg" alt="sepak takraw">
+		 <h5>SEPAK TAKRAW</h5>
+
+		</td>
+		
+        <td >
+		  <img class="sportIcon" src="images/icons/strengthlifting.svg" alt="strength lifting">
+		  <h5>STRENGTH LIFTING</h5>
+		</td>
+		
+        <td>
+		  <img  class="sportIcon" src="images/icons/carrom.svg" alt="carrom">
+		  <h5>CARROM</h5>
+		</td>
+		
+      </tr>
+	  
+	  
+	  
+    </tbody>
+  </table>
+
+</div>
+	   
+	   </div>
+	  </div>
+	  
+    </div>  
+
+   </div>
+  </div> 
+  
+  
+<!---   Services    -->
+<div id="services" class="container-fluid shadow-lg  rounded" style="width:100%;height:80%;padding-bottom:2%;">
+ 
+ 	 <div class="row" style="margin-top:2%;margin-bottom:4%">
+       <div class="col" style="margin-top:2%">
+        <h3>SERVICES</h3>
+       </div>	
+     </div> 
+ 
+
+  <div class="row" >
+	  <div class="col-md-3" align="center">
+		  <div class="card" style="width:100%;height:80%;padding:2%">
+			<img class="card-img-top" src="https://image.flaticon.com/icons/svg/1865/1865231.svg" alt="Card image" style="width:50%;height:50%">
+			<div class="card-body">
+			  <h5 class="card-title">FIELD RENTALS</h5>
+			  <p class="card-text">Different sports ground on hourly to daily basis after academy hours</p>
+			  <br>
+			  <button type="button" class="btn btn-info " data-toggle="modal" data-target="#myModal">DETAILS</button>
+			</div>	
+           		
+	      </div>	
+      </div>
+	  
+	   <div class="col-md-3" align="center">
+		  <div class="card" style="width:100%;height:80%;padding:2%">
+			<img class="card-img-top" src="https://image.flaticon.com/icons/svg/1339/1339200.svg" alt="Card image" style="width:50%;height:50%">
+			<div class="card-body">
+			  <h5 class="card-title">Individual Training</h5>
+			  <p class="card-text">One on one training from pro athletes and coaches. Get trained like a champion</p>
+			 
+			  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">DETAILS</button>
+			  
+			</div>	
+           			
+	      </div>	
+      </div>
+	  
+	   <div class="col-md-3" align="center">
+		  <div class="card" style="width:100%;height:80%;padding:2%">
+			<img class="card-img-top" src="https://image.flaticon.com/icons/svg/353/353557.svg" alt="Card image" style="width:50%;height:50%">
+			<div class="card-body">
+			  <h5 class="card-title">Workshops/Clinics</h5>
+			  <p class="card-text">Get enrolled in our workshops that shall be conducted by pro athlete or eminent coach on a pre defined date.</p>
+			  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">DETAILS</button>
+
+			</div>	
+           			
+	      </div>       
+        </div>
+	
+	   <div class="col-md-3" align="center">
+		  <div class="card" style="width:100%;height:80%;padding:2%">
+			<img class="card-img-top" src="https://image.flaticon.com/icons/svg/10/10603.svg" alt="Card image" style="width:90%;height:40%">
+			<div class="card-body">
+			  <h5 class="card-title">Group Training Packages</h5>
+			  <p class="card-text">Join as a group up to four players at a time, including instructions from our pro coaches staff</p>
+			  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" align="bottom">DETAILS</button>
+
+			</div>	
+           </div>       
+        </div>
+	</div> 
+	
+	 <!-- MODAL -->
+	
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+		
+			  <div class="modal-header">
+				 <h4 class="modal-title">FIELD RENTALS</h4>
+				 <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  </div>
+			  <div class="modal-body">
+			  
+				<p>_______________________________</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		
+		
+	 		<!-- PRICE MODALS -->
+		
+		<div id="price" class="modal fade">
+		
+		  <div class="modal-dialog" >
+
+			<!-- Modal content-->
+			<div class="modal-content" style="width:110%" >
+	
+          	<div class="modal-body">
+			    <div class="container">
+
+			 <table class="table">
+					  
+					<thead>
+					  <tr>
+					   <th  colspan="3" style="text-align:center">PRICES FOR DIFFERENT MEMBERSHIP/SPONSORSHIP 
+					   </th>
+					  </tr>
+					</thead>
+							
+			        <tbody align="center-left">
+						
+						 <!-- SPORTS ACADEMY PURPOSED MONTHLY FEES -->
+						 
+						  <tr  class="success" style="text-align:center">
+							<td colspan="3">SPORTS ACADEMY PURPOSED MONTHLY FEES</td>
+						  </tr> 
+						  
+						  <tr >
+							<td>Archery, Crossbow</td>
+							<td  colspan="2" align="center">2,500/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Karate, Kickboxing, Taekwondo</td>
+							<td colspan="2" align="center">3,000/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Football</td>
+							<td colspan="2" align="center">3,000/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Lawn Tennis</td>
+							<td colspan="2" align="center">4,000/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Boxing</td>
+							<td colspan="2" align="center">5,000/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Shooting (10mtr Pistol)</td>
+							<td colspan="2" align="center">6,000/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Yoga & Zumba</td>
+							<td colspan="2" align="center">2,000/- </td>
+						  </tr>
+					   
+						  <!--INDIVIDUAL SPORTS RENTALS PER HOUR -->
+						  
+						  <tr  class="danger" style="text-align:center">
+							<td colspan="3" align="center">INDIVIDUAL SPORTS RENTALS PER HOUR</td>
+						  </tr> 
+						  
+						  <tr>
+							<td>Archery, Crossbow</td>
+							<td  colspan="2" align="center">300/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Cricket(Net practice)</td>
+							<td colspan="2" align="center">500/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Football (5-7a)</td>
+							<td colspan="2" align="center">3,000/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Lawn Tennis</td>
+							<td colspan="2" align="center">4,000/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Shooting</td>
+							<td colspan="2" align="center">500/-</td>
+						  </tr>
+					  
+						  
+						  <!--  CLUB MEMBERSHIP INDIVIDUAL -->
+						  
+						  <tr class="info" style="text-align:center">
+							<td colspan="3" align="center">CLUB MEMBERSHIP INDIVIDUAL</td>
+						  </tr>
+					 
+						   <tr>
+							<td>Annual Membership</td>
+							<td  colspan="2" align="center">24,000/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Half Yearly Membership</td>
+							<td colspan="2" align="center">15,000/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Quarterly Membership</td>
+							<td colspan="2" align="center">9,000/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Monthly Membership</td>
+							<td colspan="2" align="center">4,000/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Non- Members Individual Daily</td>
+							<td colspan="2"align="center">200/-</td>
+						  </tr>
+
+						  <!--  CLUB MEMBERSHIP INDIVIDUAL -->
+						  
+						  <tr class="info" style="text-align:center">
+							<td colspan="3" align="center">CLUB MEMBERSHIP CORPORATE</td>
+						  </tr>
+					 
+						   <tr>
+							<td>Annual Membership</td>
+							<td  colspan="2" align="center">5,00,000/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>All Employees Pays Individual Rental Only</td>
+							<td colspan="2" align="center">xyz/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Non- Members Guests Individual Daily</td>
+							<td colspan="2" align="center">200/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Ground Available for Sports Day at 	</td>
+							<td colspan="2" align="center">30% discount</td>
+						  </tr>
+						
+						  <!--  CORPORATE EMPLOYEES INDIVIDUAL SPORTS RENTALS -->
+						  
+						  <tr class="info" style="text-align:center">
+							<td colspan="3" align="center">CORPORATE EMPLOYEES INDIVIDUAL SPORTS RENTALS PER HOUR</td>
+						  </tr>
+					 
+						   <tr>
+							<td>Archery/ Crossbow</td>
+							<td  colspan="2" align="center">150/- </td>
+						  </tr>
+						  
+						  <tr>
+							<td>Cricket (Net Practice)</td>
+							<td colspan="2" align="center">250/-</td>
+						  </tr>
+						  
+
+						  <tr>
+							<td>Football</td>
+							<td colspan="2" align="center">2000/-</td>
+						  </tr>
+
+						  <tr>
+							<td>Lawn Tennis	</td>
+							<td colspan="2" align="center">350/-</td>
+						  </tr>
+						  
+						  <tr>
+							<td>Shooting</td>
+							<td colspan="2" align="center">350/-</td>
+						  </tr>
+
+						  <!--  SPORTS WORKSHOP FEES -->
+						  
+						  <tr class="info" style="text-align:center">
+							<td colspan="3" align="center">SPORTS WORKSHOP FEES</td>
+						  </tr>
+					 
+						   <tr>
+							<td>Sports Management Workshop	</td>
+							<td  colspan="2" align="center">500 to 2000/- </td>
+						  </tr>
+						  
+						   <tr>
+							<td>Different Sports Workshop</td>
+							<td  colspan="2" align="center">800 to 3000/- </td>
+						  </tr>
+
+						  <!--  HEALTHY MORNING & TOURNAMENT FEES -->
+						  
+						  <tr class="info" style="text-align:center">
+							<td colspan="3" align="center">HEALTHY MORNING & TOURNAMENT FEES</td>
+						  </tr>
+
+						   <tr>
+							<td>Different Sports Tournament</td>
+							<td  colspan="2" align="center">500 to 15000/- </td>
+						  </tr>
+
+					 	  
+				    	</tbody>
+					  </table>
+				  </div>
+		
+     		<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+	
+  </div>
+  
+  
+  
+  
+  
+  
+<!-- End of content-->
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
