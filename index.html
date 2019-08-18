@@ -36,7 +36,6 @@
 <style>
 body {
   margin: 0;
-  font-family: Monaco;
 }
 
 .top-container {
@@ -79,7 +78,7 @@ body {
 
 <div class="header" id="myHeader" style="z-index:99;background: linear-gradient(to bottom right, #ff9900 0%, #660033 100%);" >
    
- <nav class="navbar navbar-expand-lg navbar-light bg-light " ><!--style="border-radius: 15px 50px 30px 5px;">-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light " style="border-radius: 15px 50px 30px 5px;">
  
   <div class="row">
 	  <a class="navbar-brand" href="#" style="padding-right:180px">
@@ -91,8 +90,8 @@ body {
 	  <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  style="height:20%;margin-top:3%;">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
-  </div> 
- 
+	  
+
   <div class="collapse navbar-collapse nav-main" id="navbarSupportedContent">
 	
     <div class="my-2 my-lg-0 headerMenu">
@@ -115,16 +114,16 @@ body {
 			 <a class="nav-link" href="#gallary">Gallary</a>
 		</li>
  		 
-    	 <li class="nav-item dropdown active zoomHeader" data-toggle="collapse" data-target=".navbar-collapse">
-			<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    	 <li class="nav-item dropdown active" data-toggle="collapse" data-target=".navbar-collapse">
+			<a class="nav-link dropdown-toggle zoomHeader" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			  Prices
 			</a>
 			 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" style="font-size:12px" data-toggle="modal" data-target="#price1" href="#">SPORTS ACADEMY MONTHLY </a>
               <a class="dropdown-item" style="font-size:12px" href="#" data-toggle="modal" data-target="#price2">INDIVIDUAL SPORTS RENTALS </a>
-              <a class="dropdown-item" style="font-size:12px" data-toggle="modal" data-target="#price3" href="#">CLUB MEMBERSHIP INDIVIDUAL</a>
+              <a class="dropdown-item" style="font-size:12px" href="#" data-toggle="modal" data-target="#price3" >CLUB MEMBERSHIP INDIVIDUAL</a>
               <a class="dropdown-item" style="font-size:12px" href="#" data-toggle="modal" data-target="#price4">CLUB MEMBERSHIP CORPORATE</a>			  
-              <a class="dropdown-item" style="font-size:12px" data-toggle="modal" data-target="#price5" href="#">CORPORATE EMPLOYEES RENTALS</a>
+              <a class="dropdown-item" style="font-size:12px" href="#"data-toggle="modal" data-target="#price5" >CORPORATE EMPLOYEES RENTALS</a>
               <a class="dropdown-item" style="font-size:12px" href="#" data-toggle="modal" data-target="#price6">SPORTS WORKSHOP </a>
               <a class="dropdown-item" style="font-size:12px" href="#" data-toggle="modal" data-target="#price7">HEALTHY MORNING & TOURNAMENT</a>			  
 		     </div>
@@ -141,6 +140,8 @@ body {
 	 </ul>	 
     </div>	
   </div>
+  </div> 
+ 
  </nav>
  
  <marquee style="margin-top:1%"><a href="sportsrehab.html" target="_blank" style="text-decoration:none;color:white">! INDIA'S FIRST BIGGEST SPORTS JOB FAIR 2019 CLICK HERE !</a></marquee>
@@ -165,7 +166,6 @@ body {
       <div class="carousel-item active" style="background-image:url('images/icons/home1.jpg');" >
         <div class="carousel-caption ">
          <!-- <h2 class="display-4">First Slide</h2>-->
-		 <img src="images/icons/home1.jpg" >
           <button class="btn btn-outline-warning"> CLICK </button>
         </div>
       </div>
@@ -226,10 +226,10 @@ body {
 
  <div class="container-fluid bg-light shadow-lg  rounded" style="width:100%;height:100%;margin-top:6%">
 
-  <div class="row" style="margin-top:2%;" align="center">
+  <div class="row" style="margin-top:2%;">
     <div class="col-md-12" >
 	 
-	 <div class="row" style="margin:4%;">
+	 <div class="row" style="margin:4%;" align="center">
        <div class="col">
         <h2 style="color:#ff9900">GAMES</h2>
        </div>	
@@ -244,7 +244,7 @@ body {
 
 				<tbody align="center">
 			 
-				  <tr >
+				  <tr>
 					<td>
 					 <img  class="sportIcon"  src="images/icons/yoga.svg" alt="yoga">
 					 <h5>YOGA</h5>
@@ -255,21 +255,26 @@ body {
 					  <img class="sportIcon" src="images/icons/zomba.svg" alt="zumba">
 					  <h5>ZUMBA</h5>
 					</td>
-					
+				
+ 				  </tr>
+                  
+				  <tr>
+				   					
 					<td>
 					  <img  class="sportIcon" src="images/icons/cricket.svg" alt="cricket">
 					  <h5>CRICKET</h5>
 					</td>
 					
-				  </tr>
-
-				  <tr >
 					<td>
 					 <img  class="sportIcon"  src="images/icons/chess.svg" alt="chess">
 					 <h5>CHESS</h5>
 
 					</td>
-					
+	
+	
+                  </tr>				  
+ 
+				  <tr >				
 					<td >
 					  <img class="sportIcon" src="images/icons/dart.svg" alt="dart">
 					  <h5>DART</h5>
@@ -294,20 +299,24 @@ body {
 					  <img class="sportIcon" src="images/icons/bocce.svg" alt="bocce">
 					  <h5>BOCCE</h5>
 					</td>
-					
+								
+				  </tr>
+				  
+				  <tr>
 					<td>
 					  <img  class="sportIcon" src="images/icons/boxing.svg" alt="boxing">
 					  <h5>BOXING</h5>
 					</td>
 					
-				  </tr>
-				  
-				  <tr >
 					<td>
 					 <img  class="sportIcon"  src="images/icons/judo.svg" alt="judo">
 					 <h5>JUDO</h5>
 
 					</td>
+	
+				  </tr>
+				  <tr >
+
 					
 					<td >
 					  <img class="sportIcon" src="images/icons/karate.svg" alt="karate">
@@ -332,21 +341,21 @@ body {
 					  <img class="sportIcon" src="images/icons/minigolf.svg" alt="mini golf">
 					  <h5>MINI GOLF</h5>
 					</td>
+					  </tr>
 					
+                  <tr>					
 					<td>
 					  <img  class="sportIcon" src="images/icons/powerlifting.svg" alt="power lifting">
 					  <h5>POWER LIFTING</h5>
 					</td>
 					
-				  </tr>
-				  
-				  <tr >
 					<td>
 					 <img  class="sportIcon"  src="images/icons/shooting.svg" alt="shooting">
 					 <h5>SHOOTING</h5>
 
 					</td>
-					
+					</tr>
+					<tr>
 					<td >
 					  <img class="sportIcon" src="images/icons/taekwondo.svg" alt="taekwondo">
 					  <h5>TAEKWONDO</h5>
@@ -370,21 +379,21 @@ body {
 					  <img class="sportIcon" src="images/icons/touchrugby.svg" alt="touch rugby">
 					  <h5>TOUCH RUGBY</h5>
 					</td>
+					</tr>
 					
+				  <tr>	
 					<td>
 					  <img  class="sportIcon" src="images/icons/wushu.svg" alt="wushu">
 					  <h5>WUSHU</h5>
 					</td>
-					
-				  </tr>
-				  
-				  <tr >
+				
 					<td>
 					 <img  class="sportIcon"  src="images/icons/sepaktakraw.svg" alt="sepak takraw">
 					 <h5>SEPAK TAKRAW</h5>
 
 					</td>
-					
+					</tr>
+					<tr>
 					<td >
 					  <img class="sportIcon" src="images/icons/strengthlifting.svg" alt="strength lifting">
 					  <h5>STRENGTH LIFTING</h5>
@@ -472,7 +481,7 @@ body {
            </div>       
         </div>
 	</div> 
-	
+</div>	
 	 <!-- MODAL -->
 	
 		<div id="myModal" class="modal fade" role="dialog">
@@ -582,7 +591,7 @@ body {
 	
   </div> 
    
- </div>
+ 
  
  
   <!--INDIVIDUAL SPORTS RENTALS PER HOUR -->
@@ -724,7 +733,6 @@ body {
 	
   </div> 
    
- </div>
 
   <!-- CLUB MEMBERSHIP CORPORATE  -->
 
@@ -789,7 +797,7 @@ body {
 	
   </div> 
    
- </div>
+
 
   <!-- CORPORATE EMPLOYEES INDIVIDUAL SPORTS RENTALS -->
 
@@ -858,10 +866,6 @@ body {
 	
   </div> 
    
- </div>
-
-   
- </div>
 
   <!--  SPORTS WORKSHOP FEES  -->
 
@@ -915,7 +919,7 @@ body {
 	
   </div> 
    
- </div>
+
 
 
   <!-- HEALTHY MORNING & TOURNAMENT FEES -->
@@ -964,9 +968,7 @@ body {
 	
   </div> 
    
- </div>
 
- 
  <!-- MODAL S ENDING-->
  
  
@@ -1115,10 +1117,12 @@ body {
 			  <table style="margin-top:4%;padding:20%">
 		  
 			   <tr >
-				<th style="padding:10px">NUMBER:</th>
+				<th style="padding:">Mobile </th>
 				<td style="padding:"> 9810359486</td>
-			    <th style="padding:10px">Email:</th>
-				<td style="padding:">tsl@gmail.com</td>	
+			   </tr>	
+			   <tr>	
+			    <th style="padding:4px">Email</th>
+				<td style="padding:4px">tsl@gmail.com</td>	
 			   </tr>
 
 		     </table>
@@ -1171,7 +1175,7 @@ body {
      <div class="col-md-5" style="margin-top:2%">
 	 
 	  <div class="container">
-		<h5>Any enquiry ask us</h5>
+		<h5 align="center">Any enquiry ask us</h5>
 			  <form action="#" method="post">
 			   
 				<div class="form-group">
@@ -1189,7 +1193,10 @@ body {
 				 <label for="email">Enter your enquiry:</label>
 				  <textarea class="form-control" rows="2" id="comment"></textarea>
 				</div>
+				
+				<div class="form-group" align="center">
 				<button type="submit" class="btn btn-outline-warning">Submit</button>
+				</div>
 			  </form>
 			</div>
 		 </div>
