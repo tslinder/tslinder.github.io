@@ -260,7 +260,7 @@
 
 <!-- TEAM -->
 <span id="Team" class="anchor"></span>
-<div class="container-fluid" id="Team" style="margin-top:2%;background-color:black;" > 
+<div class="container-fluid" id="Team" style="margin-top:2%;background-color:black;height:*" > 
 
    <div class="row" style="margin-top:2%" align="center">
     <div class="col" style="margin-top:4%">
@@ -283,7 +283,7 @@
     </div>
 
     <div class="col-sm-6 shadow-lg " style="margin-top:1%;padding:2%;background-color:black" > 
-     <img src="https://image.flaticon.com/icons/svg/236/236832.svg" class="rounded-circle" alt="Sushant Malhotra" height="45%" width="45%">
+     <img src="https://image.flaticon.com/icons/svg/236/236832.svg" class="rounded-circle" alt="Arun Pabreja" height="45%" width="45%">
 	   <br>
 	   <h5 style="color:white;"><strong>Mr. Arun Pabreja</strong> <i>Co Founder</i></h5>
 	   <p style="color:white;text-align:justify">
@@ -367,7 +367,7 @@
     <div class="col-md-6 shadow-lg" style="margin-top:1%;padding:2%;" > 
 	  <div class="container"  style="color:white">
 		<h5 >Any enquiry ask us</h5>
-			  <form id="qForm" method="POST" action="http://127.0.0.1:5000/form">
+			  <form id="qForm" method="POST" action="http://127.0.0.1:5000">
 			   
 				<div class="form-group">
 				  <label align="center-left" for="name">Name:</label>
@@ -409,10 +409,10 @@
 </div>
 
   <script>
-	$(document).ready(function(e){
-	  $("form").submit(function(e){
+ $(document).ready(function(e){
+	  $("#qForm").submit(function(e){
 	         e.preventDefault();
-	  		alert("Thanks for sending the mail");  
+	  		alert("! Thank you for your enquiry !");  
          	});  
     });	
   </script> 
