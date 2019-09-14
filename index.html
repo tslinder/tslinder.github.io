@@ -33,9 +33,11 @@
 
 
 <style>
+
 body {
   margin: 0;
   position:relative;
+  
 }
 .top-container {
   background-color: #f1f1f1;
@@ -57,7 +59,7 @@ body {
   }  
 .content {
    width: 100%;
-  padding-top: 80px;}
+  padding-top: 50px;}
   
   span.anchor {
     margin-top: -150px; /* height of nav, in this case 54px */
@@ -69,7 +71,7 @@ body {
   span.anchor1{
     margin-top: -80px; /* height of nav, in this case 54px */
     display: block;
-    height: 80px; /* height of nav, in this case 54px */
+    height: 90px; /* height of nav, in this case 54px */
     visibility: hidden;
     position: relative;
 }
@@ -103,14 +105,14 @@ body {
 	  </button>
 	  
 
-  <div class="collapse navbar-collapse nav-main" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse nav-main" style="" id="navbarSupportedContent">
 	
     <div class="my-2 my-lg-0 headerMenu">
 	
      <ul class="navbar-nav mr-auto">
     
 		 <li class="nav-item active zoomHeader" data-toggle="collapse" data-target=".navbar-collapse">
-			<a class="nav-link " href="#home" >Home <span class="sr-only">(current)</span></a>
+			<a class="nav-link " href="#home" >Home<span class="sr-only">(current)</span></a>
 		 </li>
 		 
 		 <li class="nav-item zoomHeader active" data-toggle="collapse" data-target=".navbar-collapse">
@@ -129,6 +131,10 @@ body {
 			 <a class="nav-link" href="#gallary">Gallery</a>
 		</li>
  
+        <li class="nav-item zoomHeader active" data-toggle="collapse" data-target=".navbar-collapse">
+			 <a class="nav-link" href="#ourip">Our IP's</a>
+		</li>
+  
     	 <li class="nav-item dropdown active" data-toggle="collapse" data-target=".navbar-collapse">
 			<a class="nav-link dropdown-toggle zoomHeader" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			  Prices
@@ -171,19 +177,23 @@ body {
 <div class="content" style="z-index:-1;" id="#myScrollspy">
  <!-- Carousel-->
 <span class="anchor" id="home"></span>
-<header class="container-fluid " style="margin-bottom:4%;"  id="home">
 
- <div id="demo" class="carousel slide" data-ride="carousel" style="padding:3%">
+<header class="container-fluid shadow-lg  rounded " style="margin-bottom:4%;background-color:#660033"   id="home">
+
+ <div id="demo" class="carousel slide" data-ride="carousel" style="padding:3%;">
 
   <!-- Indicators -->
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+    <li data-target="#demo" data-slide-to="6"></li>
   </ul>
   
   <!-- The slideshow -->
-  <div class="carousel-inner">
+  <div class="carousel-inner shadow-lg  rounded ">
     <div class="carousel-item active">
       <img src="images/Satans Paradise Logo.jpg" alt="Satans Paradise">
     </div>
@@ -220,6 +230,8 @@ body {
 
  
 </header>
+
+
 
 <!-- ABOUT -->
  <span class="anchor" id="about"></span>
@@ -280,16 +292,26 @@ body {
 			 
 				  <tr>
 					<td>
-					 <img  class="sportIcon"  src="images/icons/yoga.svg" alt="yoga">
-					 <h5>YOGA</h5>
+					  <img  class="sportIcon" src="images/icons/volleyball.svg" alt="arm wrestling">
+					  <h5>ARM WRRSTLING</h5>
 
 					</td>
 					
 					<td >
-					  <img class="sportIcon" src="images/icons/zomba.svg" alt="zumba">
-					  <h5>ZUMBA</h5>
+					 <img  class="sportIcon"  src="images/icons/boxcricket.svg" alt="box cricket">
+					 <h5>BOX CRICKET</h5>
 					</td>
 				    <td>
+					  <img  class="sportIcon" src="images/icons/boxing.svg" alt="boxing">
+					  <h5>BOXING</h5>
+					</td>
+					
+					<td>
+					  <img class="sportIcon" src="images/icons/bocce.svg" alt="bocce">
+					  <h5>BOCCE</h5>
+					</td>
+				
+					<td >
 					  <img  class="sportIcon" src="images/icons/cricket.svg" alt="cricket">
 					  <h5>CRICKET</h5>
 					</td>
@@ -297,41 +319,29 @@ body {
 					<td>
 					 <img  class="sportIcon"  src="images/icons/chess.svg" alt="chess">
 					 <h5>CHESS</h5>
-
-					</td>
-				
-					<td >
-					  <img class="sportIcon" src="images/icons/dart.svg" alt="dart">
-					  <h5>DART</h5>
-					</td>
-					
-					<td>
-					  <img  class="sportIcon" src="images/icons/futsal.svg" alt="cricket">
-					  <h5>FUTSAL</h5>
 					</td>  
                    </tr>
 				   
 				   <tr>
 					<td>
-					 <img  class="sportIcon"  src="images/icons/boxcricket.svg" alt="box cricket">
-					 <h5>BOX CRICKET</h5>
+					  <img class="sportIcon" src="images/icons/dart.svg" alt="dart">
+					  <h5>DART</h5>
 
 					</td>
 					
 					<td >
-					  <img class="sportIcon" src="images/icons/bocce.svg" alt="bocce">
-					  <h5>BOCCE</h5>
+					  <img  class="sportIcon" src="images/icons/futsal.svg" alt="cricket">
+					  <h5>FUTSAL</h5>
 					</td>
 						
 					<td>
-					  <img  class="sportIcon" src="images/icons/boxing.svg" alt="boxing">
-					  <h5>BOXING</h5>
+					  <img  class="sportIcon " src="images/icons/football.svg" alt="football">
+					  <h5>FOOTBALL</h5>
 					</td>
 					
 					<td>
 					 <img  class="sportIcon"  src="images/icons/judo.svg" alt="judo">
 					 <h5>JUDO</h5>
-
 					</td>
 
 					<td >
@@ -349,7 +359,6 @@ body {
 					<td>
 					 <img  class="sportIcon"  src="images/icons/lawntennis.svg" alt="lawn tennis">
 					 <h5>LAWN TENNIS</h5>
-
 					</td>
 					
 					<td >
@@ -363,27 +372,28 @@ body {
 					</td>
 					
 					<td>
-					 <img  class="sportIcon"  src="images/icons/shooting.svg" alt="shooting">
-					 <h5>SHOOTING</h5>
+					 <img  class="sportIcon"  src="images/icons/ropeskipping.svg" alt="rope skipping">
+					 <h5>ROPE SKIPPING</h5>
 
 					</td>
 				
 					<td >
-					  <img class="sportIcon" src="images/icons/taekwondo.svg" alt="taekwondo">
-					  <h5>TAEKWONDO</h5>
+
+					 <img  class="sportIcon"  src="images/icons/sepaktakraw.svg" alt="sepak takraw">
+					 <h5>SEPAK TAKRAW</h5>
 					</td>
 					
 					<td>
-					  <img  class="sportIcon" src="images/icons/volleyball.svg" alt="arm wrestling">
-					  <h5>ARM WRRSTLING</h5>
+					  <img class="sportIcon" src="images/icons/strengthlifting.svg" alt="strength lifting">
+					  <h5>STRENGTH LIFTING</h5>
 					</td>
 					
 				  </tr>
 				  
 				  <tr >
 					<td>
-					 <img  class="sportIcon"  src="images/icons/ropeskipping.svg" alt="rope skipping">
-					 <h5>ROPE SKIPPING</h5>
+					 <img  class="sportIcon"  src="images/icons/shooting.svg" alt="shooting">
+					 <h5>SHOOTING</h5>
 
 					</td>
 					
@@ -393,24 +403,24 @@ body {
 					</td>
 					
 					<td>
-					  <img  class="sportIcon" src="images/icons/wushu.svg" alt="wushu">
-					  <h5>WUSHU</h5>
+					  <img class="sportIcon" src="images/icons/taekwondo.svg" alt="taekwondo">
+					  <h5>TAEKWONDO</h5>
 					</td>
 				
 					<td>
-					 <img  class="sportIcon"  src="images/icons/sepaktakraw.svg" alt="sepak takraw">
-					 <h5>SEPAK TAKRAW</h5>
+					  <img  class="sportIcon" src="images/icons/wushu.svg" alt="wushu">
+					  <h5>WUSHU</h5>
 
 					</td>
 				
 					<td >
-					  <img class="sportIcon" src="images/icons/strengthlifting.svg" alt="strength lifting">
-					  <h5>STRENGTH LIFTING</h5>
+					 <img  class="sportIcon"  src="images/icons/yoga.svg" alt="yoga">
+					 <h5>YOGA</h5>
 					</td>
 					
 					<td>
-					  <img  class="sportIcon " src="images/icons/carrom.svg" alt="carrom">
-					  <h5>CARROM</h5>
+					  <img class="sportIcon" src="images/icons/zomba.svg" alt="zumba">
+					  <h5>ZUMBA</h5>
 					</td>
 					
 				  </tr>
@@ -674,7 +684,6 @@ body {
 	
   </div> 
    
- </div>
  
    <!--CLUB MEMBERSHIP INDIVIDUAL -->
 
@@ -1176,23 +1185,15 @@ body {
 					<a href="https://www.instagram.com/totalsportsleague/?hl=en " class="fa"><img src="images/icons/instagram.svg" height="30px" width="30px"></a>
 			    </div>
 				
-			  <table style="margin-top:4%;">
-		  
-			   <tr >
-				<th style="padding:">Mobile</th>
-				<td style="padding:"> 9810359486</td>
-			   </tr> 
-			   <tr>	
-			    <th style="padding:4px">Email &nbsp;&nbsp;</th>
-				<td style="padding:4px">totalsportsleague@gmail.com</td>	
-			   </tr>
-      
-			   <tr >	
-			     <th style="padding:4px">Registered Office</th><
-				 <td style="padding:4px">1st Floor, B-39, Near PVR Plaza (Metro Gate 2),
-                                         Middle Circle, Connaught Place, New Delhi – 110001 </td>	
-			   </tr>			   
-		     </table>
+				
+				
+			<div align="center" >
+			    <br> 
+                <p><b>Mobile: </b>9810359486</p>			
+			    <p><b>Email: </b>totalsportsleague@gmail.com</p>	
+                <p><b>Registered Office:</b><br><span style="text-align:justify">1st Floor, B-39, Near PVR Plaza (Metro Gate 2),
+                                            Middle Circle, Connaught Place, New Delhi – 110001</span></p>	
+			 </div>
  	    </div> 
 	
    <div class="col-md-4" style="margin-top:2%;" align="center"  style="margin-top:4%">
@@ -1241,10 +1242,10 @@ body {
 	 
 	  <div class="container">
 		<h5 align="center">Any enquiry ask us</h5>
-			  <form action="http://127.0.0.1:5000/" method="post">
+			  <form action="http://127.0.0.1:5000/" id="qForm" method="post">
 			   
 				<div class="form-group">
-				  <label for="pwd">Name:</label>
+				  <label >Name:</label>
 				  <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
 				</div>
 				
@@ -1256,7 +1257,7 @@ body {
 				
 				<div class="form-group">
 				 <label for="email">Enter your enquiry:</label>
-				  <textarea placeholder="type here" class="form-control" rows="2" id="comment"></textarea>
+				  <textarea placeholder="type here" class="form-control" rows="2" id="comment" name="enquiry"></textarea>
 				</div>
 				
 				<div class="form-group" align="center">
@@ -1268,22 +1269,32 @@ body {
       
   </div>
   
-   <div class="row" style="margin-top:2%">
+   <div class="row" style="margin-top:2%" align="center">
    
-    <div class="col-md-6">
+    <div class="col-md-3">
 	
-	 © Copyright TSL. All Rights Reserved
-	 <br> 
-     Designed by Inderdeep Singh
-	 
+	 <h6>
+	 © Copyright TSL. All Rights Reserved      
+
+	 </h6>
 	</div>
 	
-	<div class="col-md-6" style="text-decoration:none;font-size:10px;padding-right:1%;color:black">
+	<div class="col-md-3">
+	 <h6>
+	   Designed by Inderdeep Singh
+	 </h6>
+	</div>
+	
+	
+	<div class="col-md-6" style="text-decoration:none;font-size:15px;padding-right:1%;color:black">
 	
      <a href="#home" >HOME</a>
 	 <a href="#about" >ABOUT</a>
 	 <a href="#services" >SERVICES</a>
-	 <a href="#gallary" >GALLARY</a>
+	 <a href="#gallary" >GALLERY</a>
+     <a href="#ourip" >OUR IP's</a>
+	 <a href="#contact" >CONTACT US</a>
+
 	</div>
    
    </div>
@@ -1296,6 +1307,14 @@ body {
 </div>
 
 <script>
+
+ $(document).ready(function(e){
+	  $("#qForm").submit(function(e){
+	         e.preventDefault();
+	  		alert("! Thank you for your enquiry !");  
+         	});  
+    });	
+
 window.onscroll = function() {myFunction()};
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
